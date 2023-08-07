@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    >
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="370dp"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/layout_border"
+        android:layout_marginVertical="30dp"
+        android:elevation="30dp"
+        tools:ignore="UselessParent,TextSizeCheck"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="20dp">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="260dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/person"
+                tools:ignore="ContentDescription"
+
+                />
+        </androidx.cardview.widget.CardView>
+        
+        <LinearLayout
+            android:id="@+id/sub_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="30dp"
+            >
+            <TextView
+                android:id="@+id/text_view_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/text_style"
+                android:text="@string/mr_kirollos_medhat"
+                />
+            <TextView
+                android:id="@+id/text_view_pos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunitosanslight"
+                android:text="@string/android_developer"
+                android:textColor="@color/gray"
+                android:textSize="25sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/min_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/txt_tel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:drawablePadding="24dp"
+                app:drawableLeftCompat="@drawable/phone"
+                style="@style/text_child"
+                android:text="@string/phone"
+                />
+            <TextView
+                android:id="@+id/txt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:drawablePadding="22dp"
+                app:drawableLeftCompat="@drawable/mail"
+                style="@style/text_child"
+                android:text="@string/mail"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

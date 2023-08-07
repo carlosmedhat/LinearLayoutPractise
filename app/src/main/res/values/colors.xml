@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_gray">#C4CDE0</color>
+    <color name="gray">#272727</color>
+    <color name="LinkColor">#418CFD</color>
+    <color name="dark_gray">#A1887F</color>
+    <color name="Last_link">#1565C0</color>
+    <color name="follow_button">#4C4EC0</color>
+</resources>

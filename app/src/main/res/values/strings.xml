@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">LinearLayoutPractise</string>
+    <string name="mr_kirollos_medhat">Mr.Kirollos Medhat</string>
+    <string name="android_developer">Android Developer</string>
+    <string name="phone">Tel : 01289844168</string>
+    <string name="mail">Email: h@procrew.pro</string>
+    <string name="details">Company Details</string>
+    <string name="link">www.procrew.pro</string>
+    <string name="empolyee">Empolyees : 50 : 100</string>
+    <string name="location">Location :</string>
+    <string name="location2">Egypt, shobra</string>
+    <string name="noteBasic">Note :</string>
+    <string name="note2">I am available everyday from</string>
+    <string name="time">9 AM : 5 PM</string>
+    <string name="numOfPosts">29</string>
+    <string name="numOfFollowers">3,000</string>
+    <string name="numOfFollowing">300</string>
+    <string name="stringPosts">posts</string>
+    <string name="stringFollowers">Followers</string>
+    <string name="stringFollwing">Following</string>
+    <string name="text1Position">Better UI/UX Better World</string>
+    <string name="desc1"><font color="@color/black"> Bite-Sized learnings from my experience as a</font> <font color="#1565C0">#ux</font></string>
+    <string name="text2Work">Designer</string>
+    <string name="desc2"><font color="#1565C0">#designer</font> <font color="@color/black">for the next generation Product Peeps</font></string>
+    <string name="desc3"><font color="@color/black">BUBW Podcast-Spotify...  </font><font color="#FFCCCCCC">more</font> </string>
+    <string name="follow"><u>Follow On</u></string>
+    <string name="last_link">taplink..cc/ux.bubw</string>
+</resources>
